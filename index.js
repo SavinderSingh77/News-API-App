@@ -3,7 +3,6 @@
 require('dotenv').config();
 const API_KEY = process.env.API_KEY;
 
-
 // Hamburger Icon's Functionality
 document.querySelector(".hamburger_icon").addEventListener("click", () => {
     document.querySelector(".hamburger_icon").classList.toggle("nav_open");
